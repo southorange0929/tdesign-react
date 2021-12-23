@@ -1,7 +1,7 @@
 {
   "name": "tdesign-react",
   "purename": "tdesign",
-  "version": "0.20.1",
+  "version": "0.20.2",
   "description": "TDesign Component for React",
   "title": "tdesign-react",
   "main": "cjs/index.js",
@@ -113,7 +113,7 @@
     "cross-env": "^5.2.1",
     "cssnano": "^4.0.1",
     "cz-conventional-changelog": "^3.3.0",
-    "esbuild": "^0.12.16",
+    "esbuild": "^0.14.8",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -172,9 +172,5 @@
   },
   "workspaces": [
     "./site"
-  ],
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  }
+  ]
 }
